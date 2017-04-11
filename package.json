@@ -55,6 +55,7 @@
     "yargs": "^6.6.0"
   },
   "devDependencies": {
+    "@types/sequelize": "^3.4.43",
     "chai": "^3.5.0",
     "cross-env": "^3.2.4",
     "istanbul": "^0.4.5",

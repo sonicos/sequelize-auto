@@ -1,9 +1,10 @@
 {
-  "dialect": "postgres",
-  "port": 5432,
-  "omitNull": true,
+  "dialect": "mysql",
   "additional" : {
   	"freezeTableName" : true,
   	"timestamps" : false
+  },
+  "dialectOptions": {
+    "instanceName": "sqlexpress"
   }
 }
